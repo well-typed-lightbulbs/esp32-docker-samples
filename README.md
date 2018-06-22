@@ -1,4 +1,4 @@
-### Docker scripts to build minimal applications on ESP32
+# Docker scripts to build minimal applications on ESP32
 
 ## For C or OCaml sample:
 
