@@ -6,4 +6,5 @@ ENV PATH "$PATH:/esp/xtensa-esp32-elf/bin"
 ENV IDF_PATH "/esp/esp-idf"
 COPY ./ /esp/sample/
 WORKDIR /esp/sample/
+RUN make defconfig
 RUN make -j
